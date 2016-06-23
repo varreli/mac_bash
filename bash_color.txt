@@ -1,0 +1,3 @@
+# colorized prompt; add to bashrc on linux notebook - and mac ? :
+
+PS1='\[\033[1;35m\]\w \[\033[1;33m\]\$\[\033[0m\] ' # PS1='\w $ '
