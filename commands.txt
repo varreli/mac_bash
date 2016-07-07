@@ -1,1 +1,5 @@
 ﻿$ libreoffice --writer
+
+
+# for osX, 'ditto' copies everything , hidden files and subdirectory structure :
+$ ditto directory directory_copy
