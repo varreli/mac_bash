@@ -19,14 +19,11 @@ pb() { (curl -F c=@- https://ptpb.pw/ < $1) }
 gig() { git pull "https://github.com/varreli/$1"; }
 
 
-function rkt() {
-					(
-					/Applications/Racket\ v6.3/bin/drracket "$@" &> /dev/null &
-					)
-}
-function at() (
-              atom "$@" &> /dev/null &
-          )
+function rkt() { ( /Applications/Racket\ v6.3/bin/drracket "$@" &> /dev/null & ) }
+
+
+function at() { (atom "$@" &> /dev/null &) }
+
 
 function bg() {
         ("$@" &> /dev/null &)
